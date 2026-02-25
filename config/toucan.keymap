@@ -7,15 +7,9 @@
 #define SYM  2
 #define ADJ  3
 
-&mt {
-    flavor = "tap-unless-interrupted";
-    quick-tap-ms = <100>;
-};
+&mt { flavor = "balanced"; };
 
-&lt {
-    flavor = "tap-unless-interrupted";
-    quick-tap-ms = <100>;
-};
+&lt { flavor = "balanced"; };
 
 / {
     conditional_layers {
