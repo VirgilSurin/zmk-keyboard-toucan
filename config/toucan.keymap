@@ -7,7 +7,15 @@
 #define SYM  2
 #define ADJ  3
 
-&mt { flavor = "tap-preferred"; };
+&mt {
+    flavor = "tap-unless-interrupted";
+    quick-tap-ms = <100>;
+};
+
+&lt {
+    flavor = "balanced";
+    quick-tap-ms = <100>;
+};
 
 / {
     conditional_layers {
@@ -37,7 +45,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp SINGLE_QUOTE  &caps_word  &mt LEFT_META A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &kp G  &kp M  &mt LEFT_SHIFT N  &mt LCTRL E  &mt LEFT_ALT I  &mt LEFT_META O  &tog 3  &kp TILDE  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_ALT  &kp ESCAPE  &lt 4 SPACE  &lt 5 TAB  &lt 2 RET  &lt 1 BACKSPACE  &lt 6 DEL
+&kp GRAVE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp SINGLE_QUOTE  &caps_word  &mt LEFT_META A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &kp G  &kp M  &mt LEFT_SHIFT N  &mt LCTRL E  &mt LEFT_ALT I  &mt LEFT_META O  &sl 3  &kp LS(GRAVE)  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_ALT  &kp ESCAPE  &lt 4 SPACE  &lt 5 TAB  &lt 2 RET  &lt 1 BACKSPACE  &lt 6 DEL
             >;
         };
 
@@ -76,11 +84,5 @@
 &none  &none  &kp F7  &kp F8  &kp F9  &kp F10  &none  &none  &none  &none  &none  &none  &none  &none  &kp F4  &kp F5  &kp F6  &kp F11  &none  &kp C_VOLUME_DOWN  &kp K_PLAY_PAUSE  &kp K_MUTE  &kp C_VOLUME_UP  &none  &none  &none  &kp F1  &kp F2  &kp F3  &kp F12  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
-
-        extra_1 { status = "reserved"; };
-
-        extra_2 { status = "reserved"; };
-
-        extra_3 { status = "reserved"; };
     };
 };
