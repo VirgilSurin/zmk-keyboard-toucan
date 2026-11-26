@@ -1,0 +1,303 @@
+layout: {zmk_keyboard: toucan}
+layers:
+  BASE:
+  - '`'
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - ''''
+  - Caps Word
+  - {t: A, h: LEFT META}
+  - {t: R, h: LEFT ALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LEFT SHIFT}
+  - G
+  - M
+  - {t: N, h: LEFT SHIFT}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LEFT ALT}
+  - {t: O, h: LEFT META}
+  - {t: ESYM, h: sticky}
+  - Sft+`
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - RIGHT ALT
+  - ESCAPE
+  - {t: SPACE, h: NAV}
+  - {t: TAB, h: MOUSE}
+  - {t: RET, h: SYM}
+  - {t: BSPC, h: NUM}
+  - {t: DEL, h: FN}
+  NUM:
+  - ''
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
+  - Studio Unlock
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - ''
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - .
+  - '0'
+  - '-'
+  - ''
+  - {type: held}
+  - ''
+  SYM:
+  - ''
+  - Sft+{
+  - Sft+&
+  - Sft+*
+  - Sft+(
+  - Sft+}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - 'Sft+:'
+  - Sft+$
+  - Sft+%
+  - Sft+^
+  - Sft++
+  - ''
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - Sft+~
+  - Sft+!
+  - Sft+@
+  - Sft+#
+  - Sft+|
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+(
+  - Sft+)
+  - Sft+_
+  - {type: held}
+  - ''
+  - ''
+  ESYM:
+  - ''
+  - /
+  - 'Sft+:'
+  - Sft+{
+  - Sft+}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - \
+  - ;
+  - Sft+(
+  - Sft+)
+  - Sft+"
+  - ''
+  - Sft+<
+  - Sft+>
+  - ;
+  - 'Sft+:'
+  - {t: BASE, h: toggle, type: held}
+  - ''
+  - Sft+|
+  - 'Sft+:'
+  - '['
+  - ']'
+  - ''''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - (
+  - )
+  - _
+  - ''
+  - ''
+  - ''
+  NAV:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - INS
+  - HOME
+  - PG DN
+  - PG UP
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  MOUSE:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - L Click
+  - R Click
+  - M Click
+  FN:
+  - BT Clear All
+  - ''
+  - F7
+  - F8
+  - F9
+  - F10
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Studio Unlock
+  - ''
+  - F4
+  - F5
+  - F6
+  - F11
+  - ''
+  - VOL DN
+  - PLAY PAUSE
+  - MUTE
+  - VOL UP
+  - ''
+  - BT Next
+  - ''
+  - F1
+  - F2
+  - F3
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
