@@ -1,5 +1,7 @@
 # keymap-drawer configuration: https://github.com/caksoylar/keymap-drawer/blob/main/CONFIGURATION.md
 parse_config:
+  # zmk-helpers is fetched into ./zmk-helpers by `west update` in the Draw keymap workflow
+  zmk_additional_includes: ["zmk-helpers/include"]
   # Friendlier labels for bindings keymap-drawer doesn't know
   raw_binding_map:
     "&caps_word": "Caps Word"
