@@ -1,0 +1,18 @@
+# keymap-drawer configuration: https://github.com/caksoylar/keymap-drawer/blob/main/CONFIGURATION.md
+parse_config:
+  # Friendlier labels for bindings keymap-drawer doesn't know
+  raw_binding_map:
+    "&caps_word": "Caps Word"
+    "&studio_unlock": "Studio Unlock"
+    "&bt BT_CLR_ALL": "BT Clear All"
+    "&bt BT_NXT": "BT Next"
+    "&mkp LCLK": "L Click"
+    "&mkp RCLK": "R Click"
+    "&mkp MCLK": "M Click"
+  # Show modifier names on home-row mods
+  modifier_fn_map:
+    special_left_fn: "{}"
+draw_config:
+  key_h: 60
+  key_w: 60
+  dark_mode: auto

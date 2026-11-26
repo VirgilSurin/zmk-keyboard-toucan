@@ -1,0 +1,26 @@
+# Renders an SVG of every keymap layer into keymap-drawer/ and commits it.
+# https://github.com/caksoylar/keymap-drawer
+name: Draw keymap
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/*.keymap"
+      - "config/*.json"
+      - "config/west.yml"
+      - "keymap_drawer.config.yaml"
+      - ".github/workflows/draw.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@a44809b8cc718cbff646641f49a8f71a9368336d # v0.23.0
+    with:
+      keymap_patterns: "config/toucan.keymap"
+      config_path: "keymap_drawer.config.yaml"
+      output_folder: "keymap-drawer"
+      json_path: "config"
+      commit_message: "Draw keymap [skip ci]"
+      install_version: "0.23.0"
